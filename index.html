@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>The Reddit Search Engine</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div><img src="./Reddit_Lockup_OnDark.png" class="logo"></div>
+        <div class="input-group mb-3 search">
+            <input type="text" class="form-control stext" placeholder="Search Query" aria-label="Search Query" aria-describedby="basic-addon2" id="stext">
+            <button class="btn btn-outline-primary s">Search</button>
+        
+            
+        </div>
+        <div class="opt">
+            <select class="form-select time" aria-label="Time Filter" id="opt1">
+                <option selected value="all">All</option>
+                <option value="day">Last 24h</option>
+                <option value="week">Last week</option>
+                <option value="month">Last month</option>
+                <option value="year">Last year</option>
+            </select>
+        </div>
+
+        <div class="opt2">
+            <select class="form-select sort" aria-label="Sort" id="opt2">
+                <option selected value="relevance">Relevance</option>
+                <option value="hot">Hot</option>
+                <option value="top">Top</option>
+                <option value="new">New</option>
+                <option value="comments">Most Comments</option>
+            </select>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>

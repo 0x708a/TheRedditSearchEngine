@@ -1,0 +1,42 @@
+body{
+    background-color: #2C2F33;
+}
+
+.search {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);   
+    padding: 10px;
+    max-width: 35%;
+}
+
+.opt {
+    position: absolute;
+    left: 46%;
+    top: 55%;
+    transform: translate(-50%, -50%);   
+    padding-top: 10px;
+}
+
+.opt2{
+    position: absolute;
+    left: 37.5%;
+    top: 55%;
+    transform: translate(-50%, -50%);   
+    padding-top: 10px;
+}
+
+.time {
+    left: 10%;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    max-height: 10%;
+    max-width: 15%;
+}
